@@ -100,6 +100,11 @@ class Welcome extends CI_Controller {
     * @return redirect () 
     */
     public function logout(){
-
-     }
+         $usuario_data = array(                      //creacion de vector con todos  los datos del usuarios
+                    'logueado'      => FALSE,                //hace verdadero el inicio de sesion del usuarios en el vector de datos
+            );
+            $this->session->set_userdata($usuario_data);    //realiza el inicio de sesion del usuario
+        $this->twig->display('user/index');
+    }
+    
 }
