@@ -79,7 +79,7 @@ $db['default'] = array(
 	'username' => 'or6hb0l08ioq',
 	'password' => 'PortalArena901',
 	'database' => 'portalarena_db',
-	'dbdriver' => 'mysqli.',
+	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
