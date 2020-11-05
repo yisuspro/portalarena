@@ -76,10 +76,10 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
-	'username' => 'root',
+	'username' => 'or6hb0l08ioq',
 	'password' => '',
 	'database' => 'alejandria',
-	'dbdriver' => 'mysqli',
+	'dbdriver' => 'PortalArena901.',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
